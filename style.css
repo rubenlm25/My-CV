@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 200px;
+
+}
+.photo{
+   grid-column-start: 1;
+   grid-row-start: 1;
+
+
+}
+
+.nom{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 4; 
+}
+
+.mybackground{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+
+.specialization{
+    grid-column-start: 1;
+    grid-row-start: 9; 
+    grid-row-end: 12;
+
+}
+
+.contact{
+    grid-column-start: 1;
+    grid-row-start: 13; 
+
+}
+
+.career{
+    grid-column-start: 2;
+    grid-row-start: 1; 
+
+}
+
+.education{
+    grid-column-start: 2;
+    grid-row-start: 2; 
+
+}
+
+.achievement{
+    grid-column-start: 2;
+    grid-row-start: 3; 
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
