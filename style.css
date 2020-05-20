@@ -1,66 +1,125 @@
+@font-face{
+    font-family: ok;
+    src: url(Poppins-Regular.ttf);
+}
 body{
-    margin: 0;
-    padding: 0;
-
+margin: auto;
+border: auto;
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 30px;
+background: rgb(214,220,221);
+background: linear-gradient(0deg, rgba(214,220,221,1) 0%, rgba(164,162,155,1) 100%);
+color: white;
+font-family: ok;
 }
 .grid{
     display: grid;
-    grid-template-columns: 200px;
-    grid-template-rows: 200px;
+    grid-template-columns: 40% 40%;
+    grid-auto-rows: auto;
+    margin: auto;
+    text-align: center;
+    grid-gap: 20px;
+
+    
 
 }
 .photo{
    grid-column-start: 1;
    grid-row-start: 1;
-
-
-}
-
-.nom{
-    grid-column-start: 1;
-    grid-row-start: 2;
-    grid-row-end: 4; 
+   border: 2px;
+   border-radius: 5px;
+   box-shadow: 5px 10px 18px;
+   background-color: #004365
 }
 
 .mybackground{
     grid-column-start: 1;
-    grid-row-start: 5;
-    grid-row-end: 8;
+    grid-row-start: 2;
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px;
+    background-color: #004365;
 }
 
 .specialization{
     grid-column-start: 1;
-    grid-row-start: 9; 
-    grid-row-end: 12;
-
+    grid-row-start: 3; 
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px;
+    background-color: #004365
 }
 
-.contact{
-    grid-column-start: 1;
-    grid-row-start: 13; 
-
-}
 
 .career{
     grid-column-start: 2;
     grid-row-start: 1; 
-
+    grid-template-areas: 800px;!important
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px;
+    background-color: #004365
 }
 
 .education{
     grid-column-start: 2;
     grid-row-start: 2; 
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px;
+    background-color: #004365
 
 }
 
 .achievement{
     grid-column-start: 2;
     grid-row-start: 3; 
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px;
+    background-color: #004365
 
 }
 
 img{
-    width: 200px;
+    width: 195px;
     height: 200px;
 }
+.tab
+{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    text-align: center;
+    margin-top: 10px;
+}
+.phone-icon{
+    width: 128px;
+    height: 128px;
+}
 
+.mail-icon{
+    width: 128px;
+    height: 128px;
+}
+
+.linkedin-icon{
+    width: 128px;
+    height: 128px;
+}
+.github-icon{
+    width: 128px;
+    height: 128px;
+}
+
+.titre{
+    font-size: 20px;
+    color: #fd5700;
+}
+
+.name{
+    font-size: 20px;
+}
+.sous-titre{
+    text-decoration: underline;
+}
